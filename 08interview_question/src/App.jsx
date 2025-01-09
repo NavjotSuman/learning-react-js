@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
     setCount(prevCount => prevCount +1);
     setCount(prevCount => prevCount +1);
     setCount(prevCount => prevCount +1);
+    console.log("count : ",count);
     // setCount(count+1);
     // setCount(count+1);
     // setCount(count+1);
