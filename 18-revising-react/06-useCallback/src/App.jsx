@@ -16,12 +16,12 @@ function App() {
   const handleIncrement = useCallback(() => {
     console.log("inside Increment");
     setCounter((pre) => pre + 1);
-  }, []);
+  },[])
 
   const handleDecrement = useCallback(() => {
     console.log("inside Decrement");
     setCounter((pre) => pre - 1);
-  }, []);
+  },[])
 
   return (
     <>
